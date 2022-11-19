@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    font-family:'Quicksand';
+}
+image {
+    object-fit:fill;
+    width: 100%;
+    height: 100%;
+    position:absolute;
+    z-index: -1;
+}
+
+.hero-container{
+    height: auto;
+    width: 73.5%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    object-fit: contain;
+    margin-bottom: 50px;
+}
+
+.text{
+    position: absolute;
+}
+
+.bot-text{
+    width: 100%;
+    height: 1000px;
+}
+
+.why{
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(15, 117, 15);
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 28px;
+    font-family:'Quicksand';
+}
+
+.kinds{
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(15, 117, 15);
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.kinds h5 {
+    text-align: left;
+}
+
+.kinds img {
+    margin: 10px;
+}
+
+.kinds-icon {
+    width: 33.33%;
+    padding-left: 100px; 
+    display: flex;
+    text-align: center;
+}
+
+.kinds-img1 {
+    padding-left: 100px;
+}
+
+.kinds-img2 {
+    padding-left: 100px;
+}
+
+
+.kinds-img3 {
+    padding-left: 100px;
+}
+
+.kinds a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.location a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.kinds h2 {
+    word-spacing: 185px;
+}
+
+.location{
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(15, 117, 15);
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.location img {
+    margin: auto;
+    width: auto;
+    height: auto;
+    background-color: antiquewhite;
+    color: rgb(104, 94, 94);
+}
+
+.benefit {
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(15, 117, 15);
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.benefit h5{
+    text-align: left;
+}
+
+.amount {
+    text-align: center;
+    color: #fff;
+    width: 90%;
+    height: auto;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(15, 117, 15);
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 28px;
+}
+
+.amount h5 {
+    font-size: 14px;
+}
+
+.amount h2 {
+    margin: auto;
+    width: 50%;
+    height: auto;
+    background-color: antiquewhite;
+    color: rgb(104, 94, 94);
+    padding: 10px;
+}
+
+.iconName {
+    font-size: 36px;
+}
+
+
+
+
+
+

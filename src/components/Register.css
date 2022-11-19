@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+.register-all {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 1;
+    color: rgb(0, 0, 0);
+    border-style: solid;
+}
+
+.register-all {
+    font-family: 'Quicksand';
+    font-size: 22px;
+    color: rgb(255, 255, 255);         
+}
+
+.register-body h1 {
+    color: rgb(250, 250, 250);
+    font-size: 48px;
+    text-align: center;
+    -webkit-text-stroke-width: .1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.register-body button {
+    color: rgb(0, 0, 0);
+}
+.register-body {
+    min-height: 100vh;
+    background-image: url(../assets/images/bg1.png);
+    background-size: 840px 840px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.register-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem 0.5rem;
+}
+
+.register-body section {
+    width: 100%;
+    max-width: 420px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 1rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.register-body form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    padding-bottom: 1rem;
+}
+
+.register-body a, .register-body a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.register-body input[type="text"],
+.register-body input[type="password"],
+.register-body button,
+.register-body textarea {
+  font-family: 'Quicksand';
+  font-size: 22px;
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.register-body label,
+.register-body button {
+  margin-top: 1rem;
+}
+
+.register-body button {
+  padding: 0.5rem;
+}
+
+.instructions {
+    font-size: 0.75rem;
+    border-radius: 0.5rem;
+    background: #000;
+    color: rgb(240, 231, 231);
+    padding: 0.25rem;
+    position: relative;
+    bottom: -10px;
+}
+
+.instructions > svg {
+    margin-right: 0.25rem;
+}
+
+.offscreen {
+    position: absolute;
+    left: -9999px;
+}
+
+.hide {
+    display: none;
+}
+
+.valid {
+    color: limegreen;
+    margin-left: 0.25rem;
+}
+
+.invalid {
+    color: red;
+    margin-left: 0.25rem;
+}
+
+.errmsg {
+    background-color: lightpink;
+    color: firebrick;
+    font-weight: bold;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.line {
+    display: inline-block;
+}

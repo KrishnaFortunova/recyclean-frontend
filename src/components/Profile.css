@@ -1,0 +1,27 @@
+.profile{
+    text-align: center;
+    color: #fff;
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #e5d3b3;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    font-size: 24px;
+}
+
+.profile-container h1 {
+    text-align: center;
+}
+
+.profile-container h2 {
+    text-align: left;
+    padding-left: 50px;
+}
+
+
+.icon1 {
+    padding-top: 20px;
+}

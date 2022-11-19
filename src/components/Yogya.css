@@ -1,0 +1,51 @@
+.back {
+    font-size: 36px;
+    color: black;
+    height: auto;
+    width: auto;
+    position: relative;
+  }
+
+.back a {
+    color: black;
+}
+
+.icon1 {
+    padding-left: 15px;
+    padding-right: 30px;
+}
+
+.content1 {
+    font-size: 36px;
+    padding-left: 60px;
+}
+
+.content1 img {
+    padding-right: 15px;
+}
+
+.content-txt {
+    font-size:24px;
+}
+
+.content1-use {
+    display: flex;
+    text-align: center;
+}
+
+.content1-use2 {
+    padding-left: 100px;
+}
+
+.content1-use3 {
+    padding-left: 100px;
+}
+
+.content1-use4 {
+    padding-left: 100px;
+}
+
+.loc-map {
+    font-size: 36px;
+    padding-left: 100px;
+}
