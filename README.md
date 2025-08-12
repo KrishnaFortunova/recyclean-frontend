@@ -1,4 +1,5 @@
 Recyclean ♻️
+
 Recyclean is a frontend website dedicated to promoting trash recycling awareness and education. Built with HTML, CSS, and JavaScript, it provides an accessible platform for users to learn about recycling practices, benefits, and how to contribute to a cleaner environment.
 
 🚀 Features
